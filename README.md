@@ -1,0 +1,3 @@
+This repository demonstrates a common error in Python related to exceeding the maximum recursion depth. The `factorial_bug.py` file contains a recursive factorial function that throws a `RecursionError` when a negative number is passed as input because it infinitely recurses.
+
+The `factorial_solution.py` file provides a solution using iteration, which avoids the recursion depth issue and handles negative input gracefully.
